@@ -1,0 +1,184 @@
+/* BASE STYLES */
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+
+/* GRID */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.middle,
+.bottom {
+  margin: 0 auto;
+	clear: both;
+}
+.specials-section, .reviews-section, .contact-section {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #dedbdc;
+}
+
+/* HEADER */
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+	font-weight: 700;
+    float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
+}
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+
+/* MIDDLE */
+.middle h3 {
+    color: #77a466;
+    padding: 20px 0 20px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+	font-weight: 700;
+}
+.middle p {
+    font-weight: 300;
+}
+
+.image {
+	height: auto;
+	float: left;
+}
+.image img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+
+.welcome {
+	height: auto;
+	float: left;
+}
+.welcome h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.welcome p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+
+/* BOTTOM */
+.bottom h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+	font-weight: 700;
+}
+
+.bottom p {
+	padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+	line-height: 25px;
+}
+
+
+
+/* SPECIALS SECTION */
+.specials-section h4 {
+    padding: 10px 0;
+}
+.specials {
+	list-style: none;
+    padding: 0;
+}
+.specials li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+
+/* REVIEWS SECTION */
+.reviews-section h4 {
+	padding: 10px 30px;
+}
+.reviews-section p {
+    font-size: 16px;
+    font-weight: 300;
+	line-height: 21px;
+    padding: 0 30px;
+}
+.reviews-section {
+	border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+
+/* CONTACT SECTION */
+.contact-section h4 {
+	padding: 10px 30px;
+}
+.contact-section p {
+    font-size: 16px;
+    font-weight: 300;
+	line-height: 24px;
+    padding: 0 30px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    width: 1200px;
+    height: 75px;
+    border-top: 1px solid #dedbdc;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 25px;
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
